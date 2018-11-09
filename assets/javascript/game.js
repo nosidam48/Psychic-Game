@@ -70,7 +70,7 @@ document.onkeyup = function(event) {
         image.innerHTML = "<img src=https://i.imgflip.com/phwoa.jpg width=400px height=200px>"
         
         //use winning audio clip
-        var audio = new Audio('assets/images/winner.wav');
+        var audio = new Audio('assets/images/ace.wav');
         audio.play()
     }
 
