@@ -6,6 +6,5 @@
 #### Only letters will be accepted, user can't guess the same letter twice, picture and audio run on win or loss
 
 
-![screencast-game] 
-(Psychic-Game/assets/images/Psychic Powers.gif)
+![screencast-game](https://github.com/nosidam48/Psychic-Game/assets/images/Psychic Powers.gif)
       
