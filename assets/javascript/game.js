@@ -30,6 +30,7 @@ document.onkeyup = function(event) {
     var userGuess = event.key.toLowerCase();
     console.log(cpChoice);
     directionsText.textContent = "";
+    image.innerHTML = "<img src=>"
     
     //if loop to check if the usersGuess is already in the alreadyGuessed array AND if the key pressed is a letter
     if (guesses.indexOf(userGuess) === -1 && alphabet.indexOf(userGuess) >= 0) {
