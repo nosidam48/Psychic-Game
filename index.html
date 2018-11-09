@@ -3,19 +3,44 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Psychic Powers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Spicy+Rice" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    
 </head>
 <body>
-        <h1>Politically Correct Word Search!</h1>
-        <p id="directions-text">Press any key to start!</p>
-        <p id="wins-text">Wins:</p>
-        <p id="guess-left-text">Number of guesses remaining:</p>
-        <p id="already-guessed">Letters already guessed:</p>
+
+        <audio id="myAudio">
+                <source src="" type="audio/mpeg">
+              </audio>
+
+        <h1>Are you a psychic?</h1>
+        <h2 id="directions-text">Press any key to start!</h2>
         
-    
+        <div>
+        <h3 id="guess-left-text">Guesses left:</h3>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+        <h3 id="already-guessed">Already Guessed:</h3>
+        </div>
+        <div id="box">
+        <h4 id="wins-text">Wins:</h3>
+        <h4 id="losses-text">Losses:</h4>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="image"></div>
         <script src="assets/javascript/game.js"></script>
 </body>
 </html>
